@@ -1,0 +1,16 @@
+{
+  "name": "renovate-config-daopk",
+  "version": "0.0.0",
+  "description": "Renovate Bot config for daopk repositories",
+  "license": "MIT",
+  "repository": "daopk/renovate-config",
+  "scripts": {
+    "test": "renovate-config-validator ./default.json"
+  },
+  "files": [
+    "default.json"
+  ],
+  "devDependencies": {
+    "renovate": "^35.31.5"
+  }
+}
